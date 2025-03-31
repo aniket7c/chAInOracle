@@ -1,0 +1,6 @@
+[submodule "apprepo"]
+	path = apprepo
+	url = https://github.com/garv-aga/chAInsight
+[submodule "web-app"]
+	path = web-app
+	url = https://github.com/ankit-k56/ChainlinkAggregator

@@ -1,6 +1,6 @@
-# Global Event Prediction Project
+# Token Sentiment Analysis Project
 
-This project is aimed at predicting global events by leveraging decentralized data fetched using Chainlink, processed with AI data models like Gemini, and stored on the Morph L2 blockchain. The predictions are then displayed in a user-friendly frontend interface.
+This project is aimed at analysing the sentiment events by leveraging decentralized data news fetched using Chainlink, processed with AI data models like Gemini and rate the top 3 highlights of the respective token and do a sentiment analysis if its bearish or bullish, and stored on the Morph L2 blockchain. The predictions are then displayed in a user-friendly frontend interface.
 
 ## Technologies Used
 
@@ -21,4 +21,4 @@ The project initiates its workflow by tapping into a network of prominent news A
 
 Once the data is meticulously processed and refined, it finds a secure abode within the Morph L2 blockchain, a robust platform renowned for its scalability and resilience. By leveraging the capabilities of Morph L2, the project ensures that the stored information remains immutable and accessible, facilitating seamless scalability as the volume of data grows over time.
 
-With the data securely stored and ready for consumption, the project transitions to its frontend interface, where users are greeted with a dynamic and intuitive web application. Through this interface, users can effortlessly navigate through the wealth of curated global event predictions, gaining valuable insights and staying informed about significant developments worldwide.
+With the data securely stored and ready for consumption, the project transitions to its frontend interface, where users are greeted with a dynamic and intuitive web application. Through this interface, users can effortlessly navigate through the wealth of curated sentiment analysis, gaining valuable insights and staying informed about significant developments worldwide.

@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from "react"
 
 import {
   Select,
@@ -8,7 +8,7 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "@/components/ui/select"
 
 export function Selectcrypto() {
   return (
@@ -21,11 +21,8 @@ export function Selectcrypto() {
           <SelectLabel>Select the crypto</SelectLabel>
           <SelectItem value="Ethereum">Ethereum</SelectItem>
           <SelectItem value="Bitcoin">Bitcoin</SelectItem>
-
-          {/* <SelectItem value="grapes">Grapes</SelectItem>
-          <SelectItem value="pineapple">Pineapple</SelectItem> */}
         </SelectGroup>
       </SelectContent>
     </Select>
-  );
+  )
 }

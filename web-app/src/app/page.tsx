@@ -57,7 +57,7 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-br from-zinc-900 via-black to-zinc-800 text-white font-sans px-4 py-8">
       {/* Header */}
       <header className="w-full text-center mb-12">
-        <h1 className="text-5xl font-display text-neonPink tracking-wider animate-bounce-in drop-shadow-md">
+        <h1 className="text-5xl font-display text-neonPink drop-shadow-md">
           🪐 chAInOracle Dashboard
         </h1>
         <p className="mt-2 text-zinc-400 text-sm">Powered by Chainlink Functions + Sentiment AI</p>

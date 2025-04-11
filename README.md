@@ -1,24 +1,24 @@
-# Global Event Prediction Project
+# Sentiment Analysis
 
-This project is aimed at predicting global events by leveraging decentralized data fetched using Chainlink, processed with AI data models like Gemini, and stored on the Morph L2 blockchain. The predictions are then displayed in a user-friendly frontend interface.
+This project is aimed at analyzing market sentiment by leveraging decentralized data fetched using Chainlink, processed with AI models like Gemini, and stored on-chain for transparency. The sentiment predictions are then displayed through a clean and intuitive frontend interface.
+
 
 ## Technologies Used
 
 - **Chainlink**: Utilized for accessing decentralized data feeds regarding global events.
 - **Gemini**: AI data model used for processing fetched data and generating predictions.
-- **Morph L2 Blockchain**: Used for storing prediction data securely.
+- **Ethereum**: Blockchain platform used for executing smart contracts and storing sentiment prediction results securely.
 - **Frontend**: HTML, CSS, and JavaScript, with Next.js for building the user interface.
-- **Integration Testing**: Thorough testing of the interaction between different components.
+- **Integration Testing**: Thorough testing to validate the interaction and reliability across smart contracts, AI processing, and frontend components.
 
 ## Contracts Deployed
 - **FunctionsConsumer**: https://sepolia.etherscan.io/address/0x7965031031ceab380f9fd32d3ea46770d74141a9
 - **Arbitrum FunctionConsumer**: https://sepolia.arbiscan.io/address/0xe815573125370493033DF0b2592d589CFb825b7E
-- **MorphContract**: For storing the processed data temporarily, https://explorer-testnet.morphl2.io/address/0x57f1e46aC5DBd2A7c2c356E39066212E84A0C114
 
 ## Project Overview
 
-The project initiates its workflow by tapping into a network of prominent news APIs to extract comprehensive global events data. This rich dataset is then meticulously channeled through the sophisticated processing capabilities of Gemini AI, seamlessly integrated within the Chainlink functions oracle infrastructure. This intricate orchestration ensures that the data undergoes thorough analysis and refinement, harnessing the power of artificial intelligence to glean valuable insights.
+Chain Oracle is designed to bridge the gap between real-world information and on-chain decision-making by integrating advanced oracle infrastructure with powerful AI analysis. The process begins with Chainlink Functions fetching real-time news data from multiple high-quality sources, including major crypto and financial news APIs. This off-chain data is transmitted securely and verifiably to smart contracts, ensuring that only authenticated and tamper-proof information reaches the blockchain. This seamless data flow lays the foundation for intelligent, insight-driven automation within decentralized ecosystems.
 
-Once the data is meticulously processed and refined, it finds a secure abode within the Morph L2 blockchain, a robust platform renowned for its scalability and resilience. By leveraging the capabilities of Morph L2, the project ensures that the stored information remains immutable and accessible, facilitating seamless scalability as the volume of data grows over time.
+Once the news data is retrieved, it is routed to Gemini—an advanced AI language model—that performs a multi-stage analysis. Gemini parses the articles to extract meaningful context, filters out irrelevant or low-quality content, and identifies the top three most impactful news pieces for each target cryptocurrency. Using natural language processing and sentiment evaluation, the model then determines whether the prevailing sentiment is bullish, bearish, or neutral. This refined sentiment score becomes the core output of Chain Oracle, representing an AI-enhanced snapshot of market perception.
 
-With the data securely stored and ready for consumption, the project transitions to its frontend interface, where users are greeted with a dynamic and intuitive web application. Through this interface, users can effortlessly navigate through the wealth of curated global event predictions, gaining valuable insights and staying informed about significant developments worldwide.
+The final sentiment data is stored on-chain, where it becomes accessible to smart contracts, dApps, and end-users. This on-chain visibility ensures transparency and enables real-time dashboards or automated strategies to act on trustworthy insights. Developers and traders can build on top of this layer to power DeFi protocols, governance decisions, or automated trading logic. By combining decentralized infrastructure with AI intelligence, Chain Oracle sets a new standard for integrating external world signals into the blockchain in a reliable, verifiable, and insightful way.
